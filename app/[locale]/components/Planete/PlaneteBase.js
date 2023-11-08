@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "../../../i18n";
 
-export const PlaneteBase = ({ t }) => {
+export default async function PlaneteBase({ params: { lng } }) {
+  const { t } = await useTranslation(lng);
+
   return (
     <div className="bg-[#FFE967] py-20 px-0 flex flex-col items-center gap-10 text-center">
       <div>
@@ -49,4 +52,4 @@ export const PlaneteBase = ({ t }) => {
       </div>
     </div>
   );
-};
+}

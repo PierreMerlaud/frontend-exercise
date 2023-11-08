@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "../../../i18n";
 
-export const AbonnementBase = ({ t }) => {
+export default async function AbonnementBase({ params: { lng } }) {
+  const { t } = await useTranslation(lng);
   return (
     <div className="bg-[var(--new-palette-900-very-light-green,_#E4FFEE)] flex flex-col items-center text-center gap-6 py-10 lg:py-20 lg:gap-10">
       <h2 className="font-[Ultra-Ultra] text-[2rem] not-italic font-[1000] text-[#36AB63] lg:leading-[3.75rem] lg:text-[4rem] lg:w-2/3">
@@ -64,4 +66,4 @@ export const AbonnementBase = ({ t }) => {
       </div>
     </div>
   );
-};
+}

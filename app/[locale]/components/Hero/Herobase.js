@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import HeroImage from "../../../../public/assets/images/HeroImage.png";
+import { useTranslation } from "../../../i18n";
 
-export const Herobase = ({ t }) => {
+export default async function Herobase({ params: { lng } }) {
+  const { t } = await useTranslation(lng);
+
   return (
     <div className="mx-10 flex flex-col lg:flex lg:flex-row lg:m-0 lg:w-full">
       <div className="m-auto pb-4 order-2 lg:max-w-[50%] lg:pb-0">
@@ -24,4 +27,4 @@ export const Herobase = ({ t }) => {
       </div>
     </div>
   );
-};
+}
