@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Bienvenue chez 900care",
+    "text1": "Si vous lisez ce livret, c’est que vous avez décidé de faire un “happy change” dans votre salle de bain : de réduire vos déchets plastiques, de transporter moins d’eau pour rien, de consommer local et de lutter contre la surproduction. Et pour cela on vous dit...",
+    "h3": "Merci, bravo et BIENVENUE !",
+    "text2": "Chez 900.care, notre mission c’est de vous faire ADORER nos produits d’hygiène et de soins rechargeables pour que vous disiez bye-bye au plastique jetable. Nous avons créé pour vous (et avec vous !) des produits très naturels, qui sentent bon, qui moussent quand il faut, qui respectent votre peau, vos cheveux, vos dents et votre santé. Tout cela, en vous apportant un vrai moment de PLAISIR !"
+  },
+  "planete": {
+    "title": "Meilleur pour notre planète",
+    "text": "Grâce à l’utilisation des produits 900.care, pour une joyeuse tribu de 4 personnes et par an, c’est plus de :",
+    "info1": "kilos de CO2 économisés, soit un trajet Paris - Barcelone en voiture (1035 km)",
+    "info2": "fois moins d’émissions de CO2",
+    "info3": "litres d’eau non-transportés par camion ou avion",
+    "info4": "kilos de plastique évité par an"
+  },
+  "abonnement": {
+    "title": "L’abonnement 900% libre, pourquoi ?",
+    "question1": "Pourquoi l’abonnement ?",
+    "reason1": "C’est + écologique",
+    "info1": "Pas de surproduction ni de stock périmés, des livraisons regroupées et neutres en carbone.",
+    "reason2": "C’est + économique",
+    "info2": "Nous pouvons vous offrir le prix le plus juste en étant sûrs de nos revenus à long terme.",
+    "reason3": "C’est + pratique",
+    "info3": "Vous n’oubliez jamais qu’il fallait acheter du dentifrice. Bye bye la charge mentale !",
+    "question2": "Comment ça marche ?",
+    "step1": "Réception de votre kit d’essai",
+    "action1": "Vous permet de tester nos produits pendant 2 semaines !",
+    "step2": "Et dans 20 jours",
+    "action2": "Vous recevez votre première livraison de recharges, directement dans votre boite aux lettres !"
+  },
+  "produits": {
+    "title": "Nos produits à reconstituer",
+    "question": "Comment utiliser mon gel douche ?",
+    "step1": "Insérez deux batônnets dans votre bouteille réutilisable",
+    "step2": "Ajoutez de l’eau chaude jusqu’au trait (240 mL)",
+    "step3": "Posez votre flacon tête en haut, languette ouverte et laissez reposer 6h minimum",
+    "step4": "Refermez la languette, secouez un peu, moussez !"
+  }
+}

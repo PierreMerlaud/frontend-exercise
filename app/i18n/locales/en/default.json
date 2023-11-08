@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Welcome to 900care",
+    "text1": "If you're reading this booklet, it's because you've decided to make a happy change in your bathroom: to reduce your plastic waste, transport less water for nothing, consume locally and fight against overproduction. And that's why we tell you...",
+    "h3": "Thank you, bravo and WELCOME !",
+    "text2": "At 900.care, our mission is to make you LOVE our refillable hygiene and care products, so you can say bye-bye to disposable plastic. We've created for you (and with you!) very natural products that smell good, lather when you need them to, and respect your skin, hair, teeth and health. All this, while giving you a real moment of PLEASURE!"
+  },
+  "planete": {
+    "title": "Better for our planet",
+    "text": "Thanks to the use of 900.care products, for a happy tribe of 4 people and per year, that's more than :",
+    "info1": "kilos of CO2 saved, equivalent to driving from Paris to Barcelona (1035 km)",
+    "info2": "times less CO2 emissions",
+    "info3": "liters of water not transported by truck or plane",
+    "info4": "kilos of plastic avoided per year"
+  },
+  "abonnement": {
+    "title": "Why the 900% free subscription ?",
+    "question1": "Why subscription ?",
+    "reason1": "It's + environmentally friendly",
+    "info1": "No overproduction or out-of-date stock, carbon-neutral grouped deliveries.",
+    "reason2": "It's + cost-effective",
+    "info2": "We can offer you the fairest price with long-term income security.",
+    "reason3": "It's + convenient",
+    "info3": "You never forget that you had to buy toothpaste. Bye bye mental load !",
+    "question2": "How does it work ?",
+    "step1": "Receipt of your test kit",
+    "action1": "Test our products for 2 weeks !",
+    "step2": "And in 20 days",
+    "action2": "You'll receive your first delivery of refills, straight to your mailbox !"
+  },
+  "produits": {
+    "title": "Our products to reconstitute",
+    "question": "How do I use my shower gel?",
+    "step1": "Insert two sticks into your reusable bottle",
+    "step2": "Add hot water up to the mark (240 mL)",
+    "step3": "Place the bottle upside down, with the tab open, and leave for at least 6 hours.",
+    "step4": "Close the tab, shake a little, and froth!"
+  }
+}
