@@ -15,7 +15,9 @@ export const ProduitsBase = ({ t }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDetails = () => {
-    setIsOpen(!isOpen);
+    setTimeout(() => {
+      setIsOpen((current) => !current);
+    }, 10);
   };
 
   return (
