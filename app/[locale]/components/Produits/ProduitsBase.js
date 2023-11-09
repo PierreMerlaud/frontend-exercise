@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import StepModele from "./StepModele";
 import ProduitsImage from "../../../../public/assets/images/ProduitsImage.png";
@@ -14,11 +14,24 @@ import Step4 from "../../../../public/assets/images/Step4.png";
 export const ProduitsBase = ({ t }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // const toggleDetails = () => {
+  //   setIsOpen(!isOpen);
+  // };
+
+  // useEffect(() => {
+  //   toggleDetails();
+  // }, []);
+
   const toggleDetails = () => {
     setTimeout(() => {
       setIsOpen((current) => !current);
     }, 10);
   };
+
+  // function toggleDetailsTest() {
+  //   const newState = !isOpen;
+  //   setIsOpen(newState);
+  // }
 
   return (
     <div className="flex flex-col items-center">
@@ -37,7 +50,7 @@ export const ProduitsBase = ({ t }) => {
           onClick={toggleDetails}
         >
           <span>{t("produits.question")}</span>
-          <span className="text-[1.5rem]">{isOpen ? "+" : "-"}</span>
+          <span className="text-[1.5rem]">{isOpen ? "-" : "+"}</span>
         </summary>
         <div className="lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:items-start lg:content-start">
           <StepModele
