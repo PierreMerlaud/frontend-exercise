@@ -14,24 +14,28 @@ import Step4 from "../../../../public/assets/images/Step4.png";
 export const ProduitsBase = ({ t }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // const toggleDetails = () => {
-  //   setIsOpen(!isOpen);
-  // };
+  useEffect(() => {
+    const drawerElement = document.getElementById("drawer");
 
-  // useEffect(() => {
-  //   toggleDetails();
-  // }, []);
+    const handleClick = (event) => {
+      event.preventDefault();
+    };
+
+    if (drawerElement) {
+      drawerElement.addEventListener("click", handleClick);
+    }
+
+    return () => {
+      // Cleanup the event listener when the component is unmounted
+      if (drawerElement) {
+        drawerElement.removeEventListener("click", handleClick);
+      }
+    };
+  }, []);
 
   const toggleDetails = () => {
-    setTimeout(() => {
-      setIsOpen((current) => !current);
-    }, 10);
+    setIsOpen(!isOpen);
   };
-
-  // function toggleDetailsTest() {
-  //   const newState = !isOpen;
-  //   setIsOpen(newState);
-  // }
 
   return (
     <div className="flex flex-col items-center">
@@ -46,6 +50,7 @@ export const ProduitsBase = ({ t }) => {
         open={isOpen}
       >
         <summary
+          id="drawer"
           className="text-[0.9rem] not-italic font-semibold p-6 "
           onClick={toggleDetails}
         >
@@ -94,3 +99,18 @@ export const ProduitsBase = ({ t }) => {
     </div>
   );
 };
+
+// useEffect(() => {
+//   toggleDetails();
+// }, []);
+
+// const toggleDetails = () => {
+//   setTimeout(() => {
+//     setIsOpen((current) => !current);
+//   }, 10);
+// };
+
+// function toggleDetailsTest() {
+//   const newState = !isOpen;
+//   setIsOpen(newState);
+// }
